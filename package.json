@@ -1,0 +1,13 @@
+{
+  "name": "geartrain-ke-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Gear Train Kenya landing page",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4"
+  }
+}
