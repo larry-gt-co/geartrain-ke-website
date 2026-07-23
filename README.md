@@ -50,5 +50,5 @@ Push this repo to GitHub, then in the Cloudflare dashboard:
 ## Things to update before going live
 
 - **Contact links** in `index.html` — currently `mailto:hello@geartrain.co.ke`.
-- **Kintro website URL** — currently `https://kintro.io`.
+- **Kintro website URL** — currently `https://kintro.money`.
 - **AI offer** links — currently point to the contact section.
