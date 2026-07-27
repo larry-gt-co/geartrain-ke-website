@@ -49,6 +49,14 @@ Push this repo to GitHub, then in the Cloudflare dashboard:
 
 ## Things to update before going live
 
-- **Contact links** in `index.html` — currently `mailto:hello@geartrain.co.ke`.
-- **Kintro website URL** — currently `https://kintro.money`.
-- **AI offer** links — currently point to the contact section.
+- **Photos** — the hero, AI and cloud sections use placeholder SVGs in
+  `public/images/` (`placeholder-hero.svg`, `placeholder-ai.svg`,
+  `placeholder-cloud.svg`). Replace each with a real photo (keep the same
+  filename, or point the `<img src>` at your new file). Remove the
+  `<figcaption class="ph-label">` lines once real images are in.
+- **Booking link** — the "Book a demo" / "Book a free consultation" buttons
+  use one placeholder URL. Change `BOOK_DEMO_URL` near the bottom of
+  `index.html` to your real Calendly / Cal.com / Google booking link.
+- **Contact email** — currently `jambo@geartrain.co` (in the contact section).
+- **Nav anchors** — `Case studies`, `iGaming` and `About us` currently jump to
+  the closest matching section; point them at real pages when they exist.
